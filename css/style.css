@@ -1,0 +1,123 @@
+
+html{
+
+}
+
+canvas {       
+
+}
+
+body{   
+    margin: 0;
+    position: relative;
+
+}
+
+.content {
+
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width:300px;  
+    font-family: Lato; 
+    transform: translate(-50%,-50%);
+   
+}
+
+.myname{
+    width: 100%;
+    text-align: center;
+    height: 30;
+    font-size: 200%;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+
+
+.mybio {
+    color: aliceblue;
+    text-align: center;
+    font-size: 113%;
+    padding-top: 15px;
+    word-spacing: 4px;
+    font-weight: 60;
+    letter-spacing: 1px;
+    width: 350;
+
+}
+
+.icon_col{
+  margin-left: 33px;
+}
+
+
+.ul{   
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: flex;
+    
+}
+
+ul li{
+     margin: 0 5px;
+     list-style: none;
+     display: inline-block;
+     border-width: 10px;
+}
+
+
+ul li a{
+
+    width: 26px;
+    height: 26px;
+    font-size: 18px;
+    text-align:center;
+    display: inline-block;
+    vertical-align: middle;
+    transition: .5s;
+    overflow: hidden;
+    background-color: lightgray;
+    border-radius: 50%;
+    
+}
+
+ul li a i {
+    padding-top: 4px;
+    width: 28px;
+    height: 28px;
+    display: block;
+    margin-bottom: 2px;
+    width: 100%;
+    color: black;
+    transition: .5s;
+}
+
+ul li:hover a i:nth-child(1){
+    transform: translateY(-29px);
+}
+
+
+ul li:hover a i:nth-child(2){
+    transform: translateY(-34px);
+    color: aliceblue;
+}
+
+ul li:hover:nth-child(1) a{
+    background: #e67e22;
+}
+
+ul li:hover:nth-child(2) a{
+    background: #007bb5;
+}
+
+ul li:hover:nth-child(3) a{
+    background: #6e5494;
+}
+ul li:hover:nth-child(4) a{
+    background: #3b5998;
+}
+
